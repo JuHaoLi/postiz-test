@@ -10,7 +10,7 @@
 
 ## 发布
 
-GitHub Pages 从 `main` 分支的 `/docs` 发布，不需要构建依赖。`docs` 内只有静态 HTML/CSS 和 `.nojekyll`。不放入 Postiz 源码、凭证、数据库、素材或本地体验账号。
+GitHub Pages 从 `main` 分支的 `/docs` 发布，不需要构建依赖。`docs` 内包含静态 HTML/CSS、`.nojekyll` 和 TikTok URL 前缀所有权验证文件。不放入 Postiz 源码、凭证、数据库、素材或本地体验账号。
 
 本地预览由工作区 `.claude/launch.json` 的 `postiz-policy-site` 配置启动。
 
@@ -21,3 +21,5 @@ GitHub Pages 从 `main` 分支的 `/docs` 发布，不需要构建依赖。`docs
 页面依据当前状态编写：本地应用、邀请测试、TikTok 尚未连接、外部 AI 未启用。启用 TikTok、外部 AI、远程存储或隧道，以及开放公众使用之前，核对并更新实际数据流、联系渠道与政策。以后若配置正式联系邮箱，应替换当前通过测试邀请渠道和公开 Issues 安排私密联系的说明。
 
 域名或 URL 前缀所有权验证文件可在从 TikTok 开发者后台取得后放入 `docs` 的要求位置，再提交发布；不要上传 Client secret 或 token。实际验证路径以后台提供的文件和说明为准。
+
+2026-10-18：按用户提供的 Production URL 前缀验证文件，新增 `docs/tiktokNmVG700EimJiJc68DRrpfg53xQkWOhlf.txt`，保留原文件名和原始字节。验证地址为 https://juhaoli.github.io/postiz-test/tiktokNmVG700EimJiJc68DRrpfg53xQkWOhlf.txt 。该文件是公开的网站所有权证明，不是 API 密钥；文件可访问不代表 TikTok 已完成核实或应用审核通过。
